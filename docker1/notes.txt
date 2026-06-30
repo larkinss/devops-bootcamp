@@ -1,0 +1,20 @@
+IMAGE                   ID             DISK USAGE   CONTENT SIZE   EXTRA
+alpine:latest           28bd5fe8b56d         13MB         3.93MB   U    
+hello-world:latest      96498ffd522e       25.9kB         9.49kB   U    
+infratify/card:latest   2414f6668e83         81MB         23.1MB   U    
+nginx:alpine            54f2a904c251       93.3MB         26.9MB        
+nginx:latest            ec4ed8b5299e        241MB           66MB   U    
+IMAGE                   ID             DISK USAGE   CONTENT SIZE   EXTRA
+alpine:latest           28bd5fe8b56d         13MB         3.93MB   U    
+hello-world:latest      96498ffd522e       25.9kB         9.49kB   U    
+infratify/card:latest   2414f6668e83         81MB         23.1MB   U    
+nginx:alpine            54f2a904c251       93.3MB         26.9MB        
+nginx:latest            ec4ed8b5299e        241MB           66MB   U    
+CONTAINER ID   IMAGE            COMMAND                  CREATED          STATUS                      PORTS                                     NAMES
+98307b1250b3   infratify/card   "/docker-entrypoint.…"   45 minutes ago   Up 45 minutes               0.0.0.0:9091->80/tcp, [::]:9091->80/tcp   kad2
+f722ec8b2254   infratify/card   "/docker-entrypoint.…"   46 minutes ago   Up 46 minutes               0.0.0.0:9090->80/tcp, [::]:9090->80/tcp   kad1
+7acd77d4f2fd   nginx            "/docker-entrypoint.…"   47 minutes ago   Up 47 minutes               0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web
+6427911e31a9   nginx            "/docker-entrypoint.…"   48 minutes ago   Up 48 minutes               80/tcp                                    cranky_babbage
+8bdcbd6f0534   alpine           "sh"                     48 minutes ago   Exited (0) 48 minutes ago                                             dreamy_sanderson
+7b612c42fbb6   alpine           "echo 'Hello dari Al…"   49 minutes ago   Exited (0) 49 minutes ago                                             elegant_newton
+0033c65ed31d   hello-world      "/hello"                 51 minutes ago   Exited (0) 51 minutes ago                                             ecstatic_bouman
